@@ -1,2 +1,2 @@
 # grand-hotel
-CSS exercise
+## Just CSS exercise and reminder
