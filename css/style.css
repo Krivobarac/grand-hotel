@@ -253,9 +253,12 @@ button:focus {
 /* End of Navigation */
 /* End of Navbar */
 
+#container {
+    margin-left: 8rem;
+}
+
 /*Header */
 .header {
-    margin-left: 8rem;
     height: 100vh;
     background: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(0, 0, 0, .5)), url(../img/header-1.jpeg) center no-repeat;
     background-size: cover;
@@ -332,7 +335,6 @@ button:focus {
 
 /* About Us */
 .about-us {
-    margin-left: 8rem;
     display: flex;
     background-color: #ddd;
 }
@@ -415,10 +417,6 @@ button:focus {
 /* End of About Us */
 
 /* Rooms */
-.rooms {
-    margin-left: 8rem;
-}
-
 .rooms .rooms-cards-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -504,7 +502,6 @@ button:focus {
 
 /* Customers */
 .customers {
-    margin-left: 8rem;
     padding-bottom: 7rem;
     background-color: #15141b;
 }
@@ -560,10 +557,6 @@ button:focus {
 /* End of Customers */
 
 /* Footer */
-.footer {
-    margin-left: 8rem;
-}
-
 .footer .main-part {
     display: flex;
     justify-content: space-between;
