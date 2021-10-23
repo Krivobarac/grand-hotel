@@ -253,9 +253,12 @@ button:focus {
 /* End of Navigation */
 /* End of Navbar */
 
+#container {
+    margin-left: 8rem;
+}
+
 /*Header */
 .header {
-    margin-left: 8rem;
     height: 100vh;
     background: linear-gradient(to top, rgba(0, 0, 0, .6), rgba(0, 0, 0, .5)), url(../img/header-1.jpeg) center no-repeat;
     background-size: cover;
@@ -332,7 +335,6 @@ button:focus {
 
 /* About Us */
 .about-us {
-    margin-left: 8rem;
     display: flex;
     background-color: #ddd;
 }
@@ -415,10 +417,6 @@ button:focus {
 /* End of About Us */
 
 /* Rooms */
-.rooms {
-    margin-left: 8rem;
-}
-
 .rooms .rooms-cards-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -502,11 +500,63 @@ button:focus {
 }
 /* End of Rooms */
 
-/* Footer */
-.footer {
-    margin-left: 8rem;
+/* Customers */
+.customers {
+    padding-bottom: 7rem;
+    background-color: #15141b;
 }
 
+.customers .customers-paragraph {
+    font-size: 1.8rem;
+    color: #ddd;
+    width: 50%;
+    margin: 2rem auto 8rem auto;
+    text-align: center;
+}
+
+.customers .customers-card-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.customers .customers-card-wrapper .customer-card {
+    background-color: #eee;
+    width: 60rem;
+    display: flex;
+}
+
+.customers .customers-card-wrapper .customer-card .customer-image-wrapper {
+    margin: auto 0;
+}
+
+.customers .customers-card-wrapper .customer-card .customer-image-wrapper .customer-image {
+    width: 20rem;
+    margin-left: -1.3rem;
+}
+
+.customers .customers-card-wrapper .customer-card .customer-info {
+    padding: 0 2rem;
+}
+
+.customers .customers-card-wrapper .customer-card .customer-info .customer-fullname {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.customers .customers-card-wrapper .customer-card .customer-info .customer-paragraph-1 {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #b85d1c;
+}
+
+.customers .customers-card-wrapper .customer-card .customer-info .customer-paragraph-2 {
+    font-size: 1.3rem;
+    font-style: italic;
+}
+/* End of Customers */
+
+/* Footer */
 .footer .main-part {
     display: flex;
     justify-content: space-between;
@@ -617,30 +667,3 @@ button:focus {
     color: orangered;
 }
 /* End of Footer */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
